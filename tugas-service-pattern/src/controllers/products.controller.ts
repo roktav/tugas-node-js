@@ -11,8 +11,6 @@ import {
   remove,
 } from "../services/product.service";
 
-import { IPaginationQuery } from "../utils/interfaces";
-
 export default {
   async create(req: Request, res: Response) {
     try {
